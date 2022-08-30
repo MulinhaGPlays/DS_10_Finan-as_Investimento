@@ -1,0 +1,15 @@
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\bin\Debug\net6.0\Finanças_Investimento.exe
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\bin\Debug\net6.0\Finanças_Investimento.deps.json
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\bin\Debug\net6.0\Finanças_Investimento.runtimeconfig.json
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\bin\Debug\net6.0\Finanças_Investimento.dll
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\bin\Debug\net6.0\Finanças_Investimento.pdb
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.csproj.AssemblyReference.cache
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.AssemblyInfoInputs.cache
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.AssemblyInfo.cs
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.csproj.CoreCompileInputs.cache
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.dll
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\refint\Finanças_Investimento.dll
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.pdb
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\Finanças_Investimento.genruntimeconfig.cache
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\net6.0\ref\Finanças_Investimento.dll
