@@ -1,0 +1,5 @@
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\netcoreapp1.0\Finanças_Investimento.csproj.AssemblyReference.cache
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\netcoreapp1.0\Finanças_Investimento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\netcoreapp1.0\Finanças_Investimento.AssemblyInfoInputs.cache
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\netcoreapp1.0\Finanças_Investimento.AssemblyInfo.cs
+C:\Users\android\Documents\GitHub\DS_10_Finan-as_Investimento\Finanças_Investimento\obj\Debug\netcoreapp1.0\Finanças_Investimento.csproj.CoreCompileInputs.cache

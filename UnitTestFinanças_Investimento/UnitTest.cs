@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Finanças_Investimento;
 using System;
+using System.Net.NetworkInformation;
 
 namespace UnitTestFinanças_Investimento
 {
@@ -10,13 +11,19 @@ namespace UnitTestFinanças_Investimento
         [TestMethod]
         public void TestMethodFinanças_Investimento()
         {
-            double Esperado = 1602.86;
+            Test teste = new Test();
+
             double EntradaInvestidor = 1400;
+            bool Esperado = true;
+            bool Resultado = false;
             double Implementacao;
             int Meses = 24;
-            Implementacao = EntradaInvestidor * (Math.Pow((1 + 0.07), Meses / 12));
 
-            Assert.AreEqual(Esperado, Implementacao);
+            if(teste.Juros(EntradaInvestidor) == 1602.86){
+                Resultado = true
+            }
+
+            Assert.AreEqual(Esperado, Resultado);
         }
     }
 }
