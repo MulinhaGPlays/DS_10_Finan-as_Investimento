@@ -1,7 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Finanças_Investimento;
-using System;
-using System.Net.NetworkInformation;
 
 namespace UnitTestFinanças_Investimento
 {
