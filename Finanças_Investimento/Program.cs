@@ -1,29 +1,53 @@
-﻿double EntradaInvestidor = 0;
+﻿List<string> Clientes = new List<string>();
+double EntradaInvestidor = 0;
+string nome = "";
+int idade = 0;
 double Implementacao;
-int Meses;
-int R = 0;
-while (true) {
+int qtdInvest = 100;
+int Meses = 0;
+int Q = 0;
+while (Q != qtdInvest) {
     try
     {
-        if (R == 0)
+        int R = 0;
+        if (Q == 0)
         {
-            Console.WriteLine("Insira o valor");
-            EntradaInvestidor = Convert.ToDouble(Console.ReadLine());
-            R++;
+            Console.WriteLine("Adicione a quantidade de investidores");
+            qtdInvest = Convert.ToInt32(Console.ReadLine());
         }
-        else
+
+        while (true)
         {
-            Console.WriteLine("Insira a quantidade de meses");
-            Meses = Convert.ToInt32(Console.ReadLine());
-            break;
+            if (R == 0)
+            {
+                Console.WriteLine("Escreva seu nome:");
+                nome = Convert.ToString(Console.ReadLine());
+                Console.WriteLine("Qual sua idade?");
+                idade = Convert.ToInt32(Console.ReadLine());
+            }
+
+            if (R == 0)
+            {
+                Console.WriteLine("Insira o valor");
+                EntradaInvestidor = Convert.ToDouble(Console.ReadLine());
+                R++;
+            }
+            else
+            {
+                Console.WriteLine("Insira a quantidade de meses");
+                Meses = Convert.ToInt32(Console.ReadLine());
+                Implementacao = EntradaInvestidor * (Math.Pow((1 + 0.07), Meses / 12));
+                Clientes.Add($"O Cliente {nome} que possui {idade} recebeu R${Implementacao} em Juros");
+                break;
+            }
         }
+        Q++;
     }
     catch
     {
         Console.WriteLine("O valor inserido não é um número, escreva novamente");
     }
 }
-Implementacao = EntradaInvestidor * (Math.Pow((1 + 0.07), Meses/12));
 
-Console.WriteLine($"O valor de retiro é de R${Implementacao.ToString("N2")}");
-Console.WriteLine($"E o juros acumulado foi de R${(Implementacao - EntradaInvestidor).ToString("N2")}");
+Clientes.ToList().ForEach(x => Console.WriteLine(x));
+
