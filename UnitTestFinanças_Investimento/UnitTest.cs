@@ -17,7 +17,7 @@ namespace UnitTestFinanças_Investimento
             double Implementacao;
             int Meses = 24;
 
-            if(teste.Juros(EntradaInvestidor) == 1602.86){
+            if(teste.Juros(EntradaInvestidor) == 202.86){
                 Resultado = true
             }
 
