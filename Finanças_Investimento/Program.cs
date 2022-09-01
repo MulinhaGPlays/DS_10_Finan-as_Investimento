@@ -1,8 +1,10 @@
 ﻿List<string> Clientes = new List<string>();
-double EntradaInvestidor, Implementacao = 0;
+double EntradaInvestidor = 0;
+double Implementacao;
 string nome = "";
 int qtdInvest = 100;
-int Meses, Q, idade = 0;
+int Q = 0;
+int Meses, idade = 0;
 while (Q != qtdInvest) {
     try
     {
